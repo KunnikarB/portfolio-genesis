@@ -176,6 +176,20 @@ li a:hover {
 }
 
 /* END OF HEADER SECTION */
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+iframe {
+  width: 100%;
+  height: 500px;
+}
+
 /* Footer */
 .navbar {
   margin-top: 100px;
