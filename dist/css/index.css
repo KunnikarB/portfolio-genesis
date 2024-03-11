@@ -149,6 +149,7 @@ li a:hover {
 
 .header__box {
   max-width: 1110px;
+  min-height: auto;
   width: 100%;
   display: flex;
   justify-content: space-between;
