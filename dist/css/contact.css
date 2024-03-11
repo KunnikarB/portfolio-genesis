@@ -17,6 +17,11 @@ html {
   font-style: normal;
 }
 
+::-moz-placeholder {
+  font-size: 16px;
+  line-height: 28px;
+}
+
 ::placeholder {
   font-size: 16px;
   line-height: 28px;
@@ -183,7 +188,7 @@ iframe {
 
 /* Footer */
 .navbar {
-  margin-top: 100px;
+  margin-top: 10%;
   overflow: hidden;
   bottom: 0;
   width: 100%;
@@ -200,7 +205,6 @@ iframe {
 .navbar a:hover {
   color: #4A4FF2;
   font-weight: 600;
-  font-size: 2rem;
 }
 
 i {
@@ -208,7 +212,4 @@ i {
 }
 i:hover {
   color: #4A4FF2;
-  font-size: 2rem;
 }
-
-/*# sourceMappingURL=contact.css.map */
