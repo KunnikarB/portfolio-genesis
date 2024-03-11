@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
 /* CSS Reset */
 *,
 *::before,
@@ -14,15 +15,6 @@ html {
   font-family: "Mulish", sans-serif;
   font-weight: 400;
   font-style: normal;
-}
-
-.margin {
-  margin-left: 125px;
-}
-
-::-moz-placeholder {
-  font-size: 16px;
-  line-height: 28px;
 }
 
 ::placeholder {
@@ -94,7 +86,6 @@ body {
   overflow-x: hidden;
   text-rendering: optimizeSpeed;
   color: #111111;
-  margin-left: 125px;
 }
 
 /* NAV SECTION */
@@ -137,8 +128,10 @@ li a:hover {
   max-width: 1110px;
   min-height: auto;
   width: 100%;
-  display: flex;
-  gap: 2rem;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: auto auto;
+  gap: 1.5rem;
 }
 .header__info {
   display: flex;
@@ -156,6 +149,10 @@ li a:hover {
   line-height: 26px;
   margin-bottom: 2rem;
 }
+.header__info p span {
+  word-wrap: break-word;
+  padding-right: 100%;
+}
 
 .header__projects {
   display: flex;
@@ -165,11 +162,11 @@ li a:hover {
 .header__projects-info {
   width: 60%;
   border-collapse: collapse;
-  margin-right: 2rem;
+  margin-right: 1.5rem;
 }
 .header__projects-info th, .header__projects-info td {
   text-align: start;
-  padding: 0.5rem;
+  padding: 1rem;
   font-size: 18px;
   font-weight: bold;
   border-bottom: 1px solid #D8D8D8;
@@ -233,3 +230,5 @@ i:hover {
   color: #4A4FF2;
   font-size: 2rem;
 }
+
+/*# sourceMappingURL=projects.css.map */
