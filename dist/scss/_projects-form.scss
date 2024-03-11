@@ -3,8 +3,10 @@
   max-width: 1110px;
   min-height: auto;
   width: 100%;
-  display: flex;
-  gap:2rem;  
+  display: grid;
+  grid-template-columns: 2fr 2fr ;
+  grid-template-rows: auto auto;
+  gap: 1.5rem;
 
   &__info{
     display: flex;
@@ -22,6 +24,11 @@
       font-size: 16px;
       line-height: 26px;
       margin-bottom: 2rem;
+
+      span {
+        word-wrap: break-word;
+        padding-right: 100%;
+      }
     }
   }
 }
@@ -34,11 +41,11 @@
     &-info {
       width: 60%;
       border-collapse: collapse;
-      margin-right: 2rem;
+      margin-right: 1.5rem;
    
       & th, & td {
         text-align: start;
-        padding: 0.5rem;
+        padding: 1rem;
         font-size: 18px;
         font-weight: bold;
         border-bottom: 1px solid $border-color;

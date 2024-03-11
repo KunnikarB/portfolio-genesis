@@ -3,20 +3,21 @@
 /* SERVICE SECTION */
 .service__container {
   display: grid;
+  align-items: center;
   max-width: 1110px;
   width: 100%;
   grid-template-columns: 3fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap:6vw;
 
   & h2 {
-    font-size: 28px;
+    font-size: 27px;
     font-weight: bold;
-    line-height: 38px;
-    margin-right: 2rem;
+    line-height: 38px; 
   }
 
   & li {
-  font-size: 18px;
-  margin-right: 10px;
+    font-size: 18px; 
   }
 }
 
