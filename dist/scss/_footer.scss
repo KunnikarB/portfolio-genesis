@@ -2,7 +2,7 @@
 
 /* Footer */
 .navbar {
-  margin-top: 100px;
+  margin-top: 10%;
   overflow: hidden;
   bottom: 0;
   width: 100%;  
@@ -19,7 +19,6 @@
     &:hover {
       color: $links-color;
       font-weight: 600;
-      font-size: 2rem;
     }  
   } 
 }
@@ -28,6 +27,5 @@
     color: $text-color;
     &:hover {
       color: $links-color;
-      font-size:  2rem;
     }
   }
